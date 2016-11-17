@@ -34,6 +34,7 @@ namespace TinySound.Application.Controllers
 		private void NextAudio()
 		{
 			this.PlayingList.NextAudio();
+
 		}
 
 		private void DeleteMp3()

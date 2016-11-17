@@ -43,7 +43,7 @@ namespace TinySound.Application.Controllers
 			Console.Clear();
 			Console.WriteLine("File Name");
 			Console.WriteLine("-file format is mp3");
-			Console.WriteLine("-enter name without extention");
+			Console.WriteLine("-enter name with extention");
 			Console.WriteLine("-file should locate on Desktop");
 			Console.WriteLine("\t---------");
 			Console.Write("Enter filename: ");
@@ -51,7 +51,7 @@ namespace TinySound.Application.Controllers
 			this.Audio.AudioInfo.Duration = 70;
 			this.Audio.AudioInfo.Genre = Genres.Country;
 			this.Audio.AudioInfo.Rating = 5;
-			this.Audio.FileHelper.FilePath = Path.Combine(FileHelper.FolderPath, Audio.AudioInfo.Title + ".mp3");
+			this.Audio.FileHelper.FilePath = Path.Combine(FileHelper.FolderPath, Audio.AudioInfo.Title);
 
 			SaveAndAdd();
 			BackToPlaylistManager();

@@ -17,3 +17,15 @@ D:\audiobook\sorep\TinySound\TinySound\bin\Debug\CSCore.xml
 D:\audiobook\sorep\TinySound\TinySound\bin\Debug\System.Reactive.Core.xml
 D:\audiobook\sorep\TinySound\TinySound\bin\Debug\System.Reactive.Interfaces.xml
 D:\audiobook\sorep\TinySound\TinySound\bin\Debug\System.Reactive.Linq.xml
+D:\Repositoryes\MusicPlayer\TinySound\TinySound\bin\Debug\TinySound.exe.config
+D:\Repositoryes\MusicPlayer\TinySound\TinySound\bin\Debug\TinySound.exe
+D:\Repositoryes\MusicPlayer\TinySound\TinySound\bin\Debug\TinySound.pdb
+D:\Repositoryes\MusicPlayer\TinySound\TinySound\bin\Debug\Bonsai.Core.xml
+D:\Repositoryes\MusicPlayer\TinySound\TinySound\bin\Debug\CSCore.xml
+D:\Repositoryes\MusicPlayer\TinySound\TinySound\bin\Debug\NAudio.xml
+D:\Repositoryes\MusicPlayer\TinySound\TinySound\bin\Debug\System.Reactive.Core.xml
+D:\Repositoryes\MusicPlayer\TinySound\TinySound\bin\Debug\System.Reactive.Interfaces.xml
+D:\Repositoryes\MusicPlayer\TinySound\TinySound\bin\Debug\System.Reactive.Linq.xml
+D:\Repositoryes\MusicPlayer\TinySound\TinySound\obj\Debug\TinySound.csprojResolveAssemblyReference.cache
+D:\Repositoryes\MusicPlayer\TinySound\TinySound\obj\Debug\TinySound.exe
+D:\Repositoryes\MusicPlayer\TinySound\TinySound\obj\Debug\TinySound.pdb

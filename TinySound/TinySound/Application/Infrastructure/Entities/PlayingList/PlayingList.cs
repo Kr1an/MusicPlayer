@@ -62,6 +62,7 @@ namespace TinySound.Application.Infrastructure.Entities.PlayingList
 		{
 			while (true)
 			{
+				Thread.Sleep(100);
 				if (this.NeedToStartAudio)
 				{
 					this.NeedToStartAudio = false;
@@ -76,6 +77,8 @@ namespace TinySound.Application.Infrastructure.Entities.PlayingList
 				{
 					this.DeleteFromStorage();
 					this.NeedToDeleteAudio = false;
+					this.ControllingThread.Abort();
+
 				}
 			}
 		}

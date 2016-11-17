@@ -71,10 +71,7 @@ namespace TinySound.Application.Controllers
 			while (true)
 			{
 				View.Render();
-				for (int i = 0; i < 20000000; i++)
-				{
-					
-				}
+				Thread.Sleep(100);
 			}
 		}
 	}
