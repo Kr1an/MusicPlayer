@@ -70,11 +70,11 @@ namespace TinySound.Application.Infrastructure.Entities.PlayingList
 				}
 				if (this.NeedToStopAudio == true)
 				{
-					this.SoundOut.Stop();
+					this.SoundOut.Stop();  
 					this.NeedToStopAudio = false;
 				}
 				if (this.NeedToDeleteAudio)
-				{
+				{ 
 					this.DeleteFromStorage();
 					this.NeedToDeleteAudio = false;
 					this.ControllingThread.Abort();

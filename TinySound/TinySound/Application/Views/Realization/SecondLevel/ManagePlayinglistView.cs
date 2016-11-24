@@ -16,6 +16,7 @@ namespace TinySound.Application.Views
 			Console.WriteLine("1)Pause");
 			Console.WriteLine("2)Resume");
 			Console.WriteLine("3)Delete");
+			Console.WriteLine("4)Next");
 			Console.WriteLine("0)Back");
 			Console.WriteLine("\tPress 0-3: ");
 		}
