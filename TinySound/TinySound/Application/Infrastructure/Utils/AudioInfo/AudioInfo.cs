@@ -29,7 +29,7 @@ namespace TinySound.Application.Infrastructure.Utils.AudioInfo
 		public void SetTitleWithIdChange(string Title)
 		{
 			this.Title = Title;
-			this.Id = (Title.GetHashCode() % 1024 + Duration.GetHashCode() % 1024) % 1024;
+			this.Id = (Title.GetHashCode());
 		}
 	}
 }
